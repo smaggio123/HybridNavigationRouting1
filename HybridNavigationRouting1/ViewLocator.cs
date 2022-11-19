@@ -29,16 +29,5 @@ namespace HybridNavigationRouting1
         {
             return data is ViewModelBase;
         }
-        /*
-        IViewFor? IViewLocator.ResolveView<T>(T viewModel, string? contract) => viewModel switch
-        {
-            //MessageBox.Avalonia.MessageBoxManager.GetMessageBoxStandardWindow("Failed", "viewModel="+viewModel).Show();
-            //FirstViewModel context => new FirstView { DataContext = context },
-            FirstViewModel context => new FirstView { DataContext = context },
-            _ => throw new ArgumentOutOfRangeException(nameof(viewModel))
-        };
-        */
-        
-        
     }
 }
